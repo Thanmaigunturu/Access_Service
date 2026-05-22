@@ -151,6 +151,7 @@ public class UIMHelper {
 	public static ServiceConfigurationItem findServiceConfigurationItem(ServiceConfigurationVersion scv, String scItemName) {
 		
 		if(scv!=null && scv.getConfigItems()!=null) {
+			System.out.println("crated");
 			for(ServiceConfigurationItem scvConfigItem: scv.getConfigItems()) {
 				if(scvConfigItem!=null && scvConfigItem.getName()!=null && scvConfigItem.getName().equalsIgnoreCase(scItemName)) {
 					return scvConfigItem;
