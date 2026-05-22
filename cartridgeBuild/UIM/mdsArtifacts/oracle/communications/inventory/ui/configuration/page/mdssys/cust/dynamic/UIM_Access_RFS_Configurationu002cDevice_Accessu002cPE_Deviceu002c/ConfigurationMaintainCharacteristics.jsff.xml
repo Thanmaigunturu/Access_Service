@@ -1,0 +1,15 @@
+<?xml version = '1.0'?>
+<mds:customization version="11.1.1.59.23" xmlns:mds="http://xmlns.oracle.com/mds">
+   <mds:insert parent="conf" position="last">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" binding="#{pageFlowScope.ConfigurationMaintainCharacteristicsBean.characteristicsMap['peDeviceName'].component}" readOnly="false" secret="false" label="#{bundle['ConfigurationMaintainCharacteristicsu002ejsffAccess__RFS__Configurationu002cDevice__Accessu002cPE__Deviceu002c_peDeviceName_LABEL']}" id="conf-peDeviceName" value="#{pageFlowScope.ConfigurationMaintainCharacteristicsBean.characteristicsMap['peDeviceName'].characteristic.value}" required="false" styleClass="UIHintsEditINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert parent="conf" position="last">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" binding="#{pageFlowScope.ConfigurationMaintainCharacteristicsBean.characteristicsMap['pePort'].component}" readOnly="false" secret="false" label="#{bundle['ConfigurationMaintainCharacteristicsu002ejsffAccess__RFS__Configurationu002cDevice__Accessu002cPE__Deviceu002c_pePort_LABEL']}" id="conf-pePort" value="#{pageFlowScope.ConfigurationMaintainCharacteristicsBean.characteristicsMap['pePort'].characteristic.value}" required="false" styleClass="UIHintsEditINPUT_TEXT"/>
+   </mds:insert>
+   <mds:modify element="conf">
+      <mds:attribute name="rows" value="1"/>
+      <mds:attribute name="maxColumns" value="2"/>
+      <mds:attribute name="labelAlignment" value="start"/>
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_FORM_LAYOUT"/>
+   </mds:modify>
+</mds:customization>

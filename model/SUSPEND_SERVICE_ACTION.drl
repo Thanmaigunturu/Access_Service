@@ -1,0 +1,19 @@
+package oracle.communications.inventory.rules
+ 
+import oracle.communications.inventory.api.framework.logging.Log;
+import oracle.communications.inventory.extensibility.extension.util.ExtensionPointContext;
+import com.training.uim.SuspendAccessCapture;
+ 
+ 
+global Log log;
+ 
+rule "SUSPEND_SERVICE_ACTION"
+	salience 0
+	when
+    	context : ExtensionPointContext()      
+    then 
+    	log.info("", "SUSPEND_SERVICE_ACTION - RULE START");
+		SuspendAccessCapture suspendAccessCapture = new SuspendAccessCapture();
+		suspendAccessCapture.suspendAccessCapture(context);
+		log.info("", "SUSPEND_SERVICE_ACTION - END");
+end

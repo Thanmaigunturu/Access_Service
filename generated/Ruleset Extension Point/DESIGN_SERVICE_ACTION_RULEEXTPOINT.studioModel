@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:inventory="http://xmlns.oracle.com/communications/studio/model/inventory" xmlns:model="http://xmlns.oracle.com/communications/studio/model">
+  <metadata version="1.0.0" release="7.3.0"/>
+  <entity xsi:type="inventory:RulesetExtensionPoint" id="rep=DESIGN_SERVICE_ACTION_RULEEXTPOINT" type="rep" typeName="Ruleset Extension Point" name="DESIGN_SERVICE_ACTION_RULEEXTPOINT" resource="\Training_Access_Service\model\DESIGN_SERVICE_ACTION_RULEEXTPOINT.rst">
+    <note lang="default"/>
+    <project>
+      <relation ref="ivprj=Training_Access_Service" type="Inventory Project" name="Dependency">
+        <target name="Training_Access_Service" typeName="Inventory Project"/>
+      </relation>
+    </project>
+    <point>
+      <relation ref="ep=BaseConfigurationManager_automateConfiguration" type="Extension Point" name="Point" kind="Entity">
+        <target name="BaseConfigurationManager_automateConfiguration" typeName="Extension Point"/>
+      </relation>
+    </point>
+    <ruleset>
+      <relation ref="rul=DESIGN_SERVICE_ACTION" type="Ruleset" name="Rules" kind="Entity">
+        <target name="DESIGN_SERVICE_ACTION" typeName="Ruleset"/>
+      </relation>
+    </ruleset>
+  </entity>
+</model:Model>

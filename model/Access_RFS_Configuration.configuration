@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:data="http://www.oracle.com/communications/studio/core/model/common/data" xmlns:inv="http://www.mslv.com/studio/inventory/model/specification" xmlns="http://www.mslv.com/studio/inventory/model/specification" xmlns:layout="http://xmlns.oracle.com/communications/sce/poms/model/layout" xmlns:poms="http://xmlns.oracle.com/communications/sce/poms/model/poms" xsi:type="inv:ConfigurationSpecificationType" name="Access_RFS_Configuration">
+  <com:saveVersion>12</com:saveVersion>
+  <com:id>PR4aTtJcQWiPIP1QFCedEQ</com:id>
+  <data:dataElementNode virtual="true">
+    <com:id>PR4aTtJcQWiPIP1QFCedEQ</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+    <data:name>Access_RFS_Configuration</data:name>
+    <data:displayName lang="[default]">Access_RFS_Configuration</data:displayName>
+    <data:dataElement virtual="false">
+      <com:id>fr938BLBQZySA9sJ06nGeA</com:id>
+      <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+      <data:name>Device_Access</data:name>
+      <data:displayName lang="[default]">Device_Access</data:displayName>
+      <data:dataElement virtual="false">
+        <com:id>eD5kOHIWTj+kSdQhMxUAAg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+        <data:name>PE_Device</data:name>
+        <data:displayName lang="[default]">PE_Device</data:displayName>
+        <data:dataElement virtual="false">
+          <com:id>bK7upg0XRkKlkFJ5r9C9PA</com:id>
+          <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+          <data:name>peDeviceName</data:name>
+          <data:displayName lang="[default]">Pe Device Name</data:displayName>
+          <data:baseElement>
+            <com:entity>Training_Access_Service</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>oracle.communications.studio.model.data.baseType</com:relationship>
+            <com:element>peDeviceName</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>peDeviceName</com:elementName>
+          </data:baseElement>
+          <data:primitiveType>string</data:primitiveType>
+        </data:dataElement>
+        <data:dataElement virtual="false">
+          <com:id>HmMGhIz9QVKpBct2Ty30bQ</com:id>
+          <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+          <data:name>pePort</data:name>
+          <data:displayName lang="[default]">Pe Port</data:displayName>
+          <data:baseElement>
+            <com:entity>Training_Access_Service</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>oracle.communications.studio.model.data.baseType</com:relationship>
+            <com:element>pePort</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>pePort</com:elementName>
+          </data:baseElement>
+          <data:primitiveType>string</data:primitiveType>
+        </data:dataElement>
+        <data:primitiveType>none</data:primitiveType>
+      </data:dataElement>
+      <data:dataElement virtual="false">
+        <com:id>XpERrap2SEes61ATYLDLMg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+        <data:name>Switch_Device</data:name>
+        <data:displayName lang="[default]">Switch_Device</data:displayName>
+        <data:dataElement virtual="false">
+          <com:id>wfgu1T9rQR+uXOhMQAK+3g</com:id>
+          <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+          <data:name>switchHostName</data:name>
+          <data:displayName lang="[default]">Switch Host Name</data:displayName>
+          <data:baseElement>
+            <com:entity>Training_Access_Service</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>oracle.communications.studio.model.data.baseType</com:relationship>
+            <com:element>switchHostName</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>switchHostName</com:elementName>
+          </data:baseElement>
+          <data:primitiveType>string</data:primitiveType>
+        </data:dataElement>
+        <data:dataElement virtual="false">
+          <com:id>1dI+semcSNyZAiCP-PKW5g</com:id>
+          <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+          <data:name>swPort</data:name>
+          <data:displayName lang="[default]">Sw Port</data:displayName>
+          <data:baseElement>
+            <com:entity>Training_Access_Service</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>oracle.communications.studio.model.data.baseType</com:relationship>
+            <com:element>swPort</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>swPort</com:elementName>
+          </data:baseElement>
+          <data:primitiveType>string</data:primitiveType>
+        </data:dataElement>
+        <data:primitiveType>none</data:primitiveType>
+      </data:dataElement>
+      <data:dataElement virtual="false">
+        <com:id>4bjBEZAnSPyHtZmau4SAKw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+        <data:name>OLT_Device</data:name>
+        <data:displayName lang="[default]">OLT_Device</data:displayName>
+        <data:dataElement virtual="false">
+          <com:id>G5QNNqEoTJ6K6tFnt3qLyg</com:id>
+          <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+          <data:name>oltDeviceName</data:name>
+          <data:displayName lang="[default]">Olt Device Name</data:displayName>
+          <data:baseElement>
+            <com:entity>Training_Access_Service</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>oracle.communications.studio.model.data.baseType</com:relationship>
+            <com:element>oltDeviceName</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>oltDeviceName</com:elementName>
+          </data:baseElement>
+          <data:primitiveType>string</data:primitiveType>
+        </data:dataElement>
+        <data:dataElement virtual="false">
+          <com:id>sITjZPUkSdaLjvD3QsumvQ</com:id>
+          <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+          <data:name>oltPort</data:name>
+          <data:displayName lang="[default]">Olt Port</data:displayName>
+          <data:baseElement>
+            <com:entity>Training_Access_Service</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>oracle.communications.studio.model.data.baseType</com:relationship>
+            <com:element>oltPort</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>oltPort</com:elementName>
+          </data:baseElement>
+          <data:primitiveType>string</data:primitiveType>
+        </data:dataElement>
+        <data:primitiveType>none</data:primitiveType>
+      </data:dataElement>
+      <data:dataElement virtual="false">
+        <com:id>W+8+TgSmQhquVWrP9315GA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+        <data:name>mwType</data:name>
+        <data:displayName lang="[default]">MW Type</data:displayName>
+        <data:baseElement>
+          <com:entity>Training_Access_Service</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>oracle.communications.studio.model.data.baseType</com:relationship>
+          <com:element>mwType</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>mwType</com:elementName>
+        </data:baseElement>
+        <data:primitiveType>string</data:primitiveType>
+      </data:dataElement>
+      <data:dataElement virtual="false">
+        <com:id>+5J9JOqoSYG9BdyX1V1HQw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+        <data:name>mediaType</data:name>
+        <data:displayName lang="[default]">Media Type</data:displayName>
+        <data:baseElement>
+          <com:entity>Training_Access_Service</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>oracle.communications.studio.model.data.baseType</com:relationship>
+          <com:element>mediaType</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>mediaType</com:elementName>
+        </data:baseElement>
+        <data:primitiveType>string</data:primitiveType>
+      </data:dataElement>
+      <data:dataElement virtual="false">
+        <com:id>cVMsf2TuT-GrYiYEiMRtVg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+        <data:name>serviceAction</data:name>
+        <data:displayName lang="[default]">Service Action</data:displayName>
+        <data:baseElement>
+          <com:entity>Training_Access_Service</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>oracle.communications.studio.model.data.baseType</com:relationship>
+          <com:element>serviceAction</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>serviceAction</com:elementName>
+        </data:baseElement>
+        <data:primitiveType>string</data:primitiveType>
+      </data:dataElement>
+      <data:primitiveType>none</data:primitiveType>
+    </data:dataElement>
+    <data:primitiveType>none</data:primitiveType>
+  </data:dataElementNode>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>xDfqnQkEScCM7mhqu02iug</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>PR4aTtJcQWiPIP1QFCedEQ</data:dataElementId>
+    <data:defaultValue></data:defaultValue>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:sensitive>false</data:sensitive>
+    <data:minLength>0</data:minLength>
+    <data:maxLength>40</data:maxLength>
+    <data:minMultiplicity>0</data:minMultiplicity>
+    <data:maxMultiplicity>-1</data:maxMultiplicity>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>8i3gOjjjT1WKQ2jFXYApJw</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>PR4aTtJcQWiPIP1QFCedEQ</data:dataElementId>
+    <layout:layout>
+      <layout:page>Maintain Characteristics</layout:page>
+      <layout:panel>Characteristics Panel</layout:panel>
+    </layout:layout>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>w32YaKSvTz2UPfuU2tEi-A</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>fr938BLBQZySA9sJ06nGeA</data:dataElementId>
+    <data:defaultValue></data:defaultValue>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>true</data:internal>
+    <data:sensitive>false</data:sensitive>
+    <data:minLength>0</data:minLength>
+    <data:maxLength>40</data:maxLength>
+    <data:minMultiplicity>0</data:minMultiplicity>
+    <data:maxMultiplicity>1</data:maxMultiplicity>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>sEktSW+7TzGldGRXs+uZgg</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>fr938BLBQZySA9sJ06nGeA</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:ConfigItemElementDetailType">
+    <com:id>GbHJiXw1TRixyLADbWg-cA</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementConfigItemDetailType</com:elementType>
+    <data:dataElementId>fr938BLBQZySA9sJ06nGeA</data:dataElementId>
+    <inv:itemOptionType>None</inv:itemOptionType>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>vE-IuA2GT6W7GuZOdqtBVw</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>fr938BLBQZySA9sJ06nGeA</data:dataElementId>
+    <layout:layout>
+      <layout:page>Maintain Characteristics</layout:page>
+      <layout:panel>Characteristics Panel</layout:panel>
+    </layout:layout>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>jZCv0yxASveLldFaVV4onw</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>eD5kOHIWTj+kSdQhMxUAAg</data:dataElementId>
+    <data:defaultValue></data:defaultValue>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>true</data:internal>
+    <data:sensitive>false</data:sensitive>
+    <data:minLength>0</data:minLength>
+    <data:maxLength>40</data:maxLength>
+    <data:minMultiplicity>1</data:minMultiplicity>
+    <data:maxMultiplicity>1</data:maxMultiplicity>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>GskCLmv3TfOnkWpuGnrXmw</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>eD5kOHIWTj+kSdQhMxUAAg</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:ConfigItemElementDetailType">
+    <com:id>G9ypkB8PTUqIdKUoGY490w</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementConfigItemDetailType</com:elementType>
+    <data:dataElementId>eD5kOHIWTj+kSdQhMxUAAg</data:dataElementId>
+    <inv:specificationOption>
+      <inv:sequence>1</inv:sequence>
+      <inv:default>false</inv:default>
+      <inv:specification>
+        <com:entity>peDevice</com:entity>
+        <com:entityType>device</com:entityType>
+        <com:relationship></com:relationship>
+      </inv:specification>
+    </inv:specificationOption>
+    <inv:itemOptionType>Assignment</inv:itemOptionType>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>AQlr9IZKQxyue7De1OsTDw</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>eD5kOHIWTj+kSdQhMxUAAg</data:dataElementId>
+    <layout:layout>
+      <layout:page>Maintain Characteristics</layout:page>
+      <layout:panel>Characteristics Panel</layout:panel>
+    </layout:layout>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>4PXax96wTmeVbe+yc9pMtA</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>bK7upg0XRkKlkFJ5r9C9PA</data:dataElementId>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>false</data:internal>
+    <data:minMultiplicity>1</data:minMultiplicity>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementEnumerationDetail">
+    <com:id>JvxJO84NTxuPWmLu64Fauw</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+    <data:dataElementId>bK7upg0XRkKlkFJ5r9C9PA</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>HR+mUUVZSsGdf4d8Zw2niA</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>bK7upg0XRkKlkFJ5r9C9PA</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:hintDetail">
+    <com:id>xIUt2+WmQXGSUq7wBrIJXQ</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+    <data:dataElementId>bK7upg0XRkKlkFJ5r9C9PA</data:dataElementId>
+    <layout:hints/>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="poms:valueComplexType" linkEnabled="false" overrideDictionaryValues="false" queryEnabled="false" valueEnabled="false">
+    <com:id>TyUTiaJCSBG69tF3i4HoXg</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.ValueElementDetail</com:elementType>
+    <data:dataElementId>bK7upg0XRkKlkFJ5r9C9PA</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:CharElementDetailType">
+    <com:id>hSHk9BvkQRugG2na6p48uQ</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementCharDetailType</com:elementType>
+    <data:dataElementId>bK7upg0XRkKlkFJ5r9C9PA</data:dataElementId>
+    <inv:startTimestamp>0</inv:startTimestamp>
+    <inv:endTimestamp>0</inv:endTimestamp>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>kTbBOP7JQaegKBG-hxCG3A</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>bK7upg0XRkKlkFJ5r9C9PA</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>InaC-WpST0qUicx+T53HSA</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>HmMGhIz9QVKpBct2Ty30bQ</data:dataElementId>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>false</data:internal>
+    <data:minMultiplicity>1</data:minMultiplicity>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementEnumerationDetail">
+    <com:id>1GpBvAQdTKKi9qUyOWwc0A</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+    <data:dataElementId>HmMGhIz9QVKpBct2Ty30bQ</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>Ync22-uBSqiWfIffXp0D0w</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>HmMGhIz9QVKpBct2Ty30bQ</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:hintDetail">
+    <com:id>PlqPFVxWRretalzvt85hGw</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+    <data:dataElementId>HmMGhIz9QVKpBct2Ty30bQ</data:dataElementId>
+    <layout:hints/>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="poms:valueComplexType" linkEnabled="false" overrideDictionaryValues="false" queryEnabled="false" valueEnabled="false">
+    <com:id>FY8Y2RVvRYev0rHxNoTiOw</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.ValueElementDetail</com:elementType>
+    <data:dataElementId>HmMGhIz9QVKpBct2Ty30bQ</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:CharElementDetailType">
+    <com:id>Eo+wrYaDQhug6M1qmfeJAQ</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementCharDetailType</com:elementType>
+    <data:dataElementId>HmMGhIz9QVKpBct2Ty30bQ</data:dataElementId>
+    <inv:startTimestamp>0</inv:startTimestamp>
+    <inv:endTimestamp>0</inv:endTimestamp>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>RfN4ATfHRkmfCBLkfTRLTw</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>HmMGhIz9QVKpBct2Ty30bQ</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>rgwXgQmyS4SRR0PmneOp7Q</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>XpERrap2SEes61ATYLDLMg</data:dataElementId>
+    <data:defaultValue></data:defaultValue>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>true</data:internal>
+    <data:sensitive>false</data:sensitive>
+    <data:minLength>0</data:minLength>
+    <data:maxLength>40</data:maxLength>
+    <data:minMultiplicity>0</data:minMultiplicity>
+    <data:maxMultiplicity>1</data:maxMultiplicity>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>EaGZgJtPSlqmjoX4bmZhhw</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>XpERrap2SEes61ATYLDLMg</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:ConfigItemElementDetailType">
+    <com:id>sFIxKqvrSCSKWNaZPHrn1A</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementConfigItemDetailType</com:elementType>
+    <data:dataElementId>XpERrap2SEes61ATYLDLMg</data:dataElementId>
+    <inv:specificationOption>
+      <inv:sequence>1</inv:sequence>
+      <inv:default>false</inv:default>
+      <inv:specification>
+        <com:entity>accessDevice</com:entity>
+        <com:entityType>device</com:entityType>
+        <com:relationship></com:relationship>
+      </inv:specification>
+    </inv:specificationOption>
+    <inv:itemOptionType>Assignment</inv:itemOptionType>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>jMFh34LGT9COngaTYGJEJA</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>XpERrap2SEes61ATYLDLMg</data:dataElementId>
+    <layout:layout>
+      <layout:page>Maintain Characteristics</layout:page>
+      <layout:panel>Characteristics Panel</layout:panel>
+    </layout:layout>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>aeUqXkoBT9ql5ybgpSWKWA</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>wfgu1T9rQR+uXOhMQAK+3g</data:dataElementId>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>false</data:internal>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementEnumerationDetail">
+    <com:id>PLw8FogvRk2IeKXtajV5uA</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+    <data:dataElementId>wfgu1T9rQR+uXOhMQAK+3g</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>uw7K1kTDRtqa3YT0-ugepQ</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>wfgu1T9rQR+uXOhMQAK+3g</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:hintDetail">
+    <com:id>GtKI57zdQrSEahAxdgUIRQ</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+    <data:dataElementId>wfgu1T9rQR+uXOhMQAK+3g</data:dataElementId>
+    <layout:hints/>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="poms:valueComplexType" linkEnabled="false" overrideDictionaryValues="false" queryEnabled="false" valueEnabled="false">
+    <com:id>IUbkLh9XSVGRofCJqCZb9Q</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.ValueElementDetail</com:elementType>
+    <data:dataElementId>wfgu1T9rQR+uXOhMQAK+3g</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:CharElementDetailType">
+    <com:id>2R1tJFghQg6nGnKzcpEIkg</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementCharDetailType</com:elementType>
+    <data:dataElementId>wfgu1T9rQR+uXOhMQAK+3g</data:dataElementId>
+    <inv:startTimestamp>0</inv:startTimestamp>
+    <inv:endTimestamp>0</inv:endTimestamp>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>KuffS5wWRy+ub04joj-7hw</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>wfgu1T9rQR+uXOhMQAK+3g</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>XyWaV+3sTnyzhk9X-C7EDw</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>1dI+semcSNyZAiCP-PKW5g</data:dataElementId>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>false</data:internal>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementEnumerationDetail">
+    <com:id>pTqVSPIiQa+WkCo60BTW0A</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+    <data:dataElementId>1dI+semcSNyZAiCP-PKW5g</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>fMUuo-oSSNaO-A0jqMxORg</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>1dI+semcSNyZAiCP-PKW5g</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:hintDetail">
+    <com:id>xTx9feBoQG+O7ajaW7nK5w</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+    <data:dataElementId>1dI+semcSNyZAiCP-PKW5g</data:dataElementId>
+    <layout:hints/>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="poms:valueComplexType" linkEnabled="false" overrideDictionaryValues="false" queryEnabled="false" valueEnabled="false">
+    <com:id>W5CWjzPvQciKqmCqkv-88g</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.ValueElementDetail</com:elementType>
+    <data:dataElementId>1dI+semcSNyZAiCP-PKW5g</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:CharElementDetailType">
+    <com:id>7nX945qPSZmmXsGg8ymLYQ</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementCharDetailType</com:elementType>
+    <data:dataElementId>1dI+semcSNyZAiCP-PKW5g</data:dataElementId>
+    <inv:startTimestamp>0</inv:startTimestamp>
+    <inv:endTimestamp>0</inv:endTimestamp>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>4hvsrri6S-ytkh4Vr4fi6Q</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>4bjBEZAnSPyHtZmau4SAKw</data:dataElementId>
+    <data:defaultValue></data:defaultValue>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>true</data:internal>
+    <data:sensitive>false</data:sensitive>
+    <data:minLength>0</data:minLength>
+    <data:maxLength>40</data:maxLength>
+    <data:minMultiplicity>0</data:minMultiplicity>
+    <data:maxMultiplicity>1</data:maxMultiplicity>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>9J0IyIVPR06rdIHA+A6TfA</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>4bjBEZAnSPyHtZmau4SAKw</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:ConfigItemElementDetailType">
+    <com:id>4J0YuDc9Tz+5g28SOTjUeQ</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementConfigItemDetailType</com:elementType>
+    <data:dataElementId>4bjBEZAnSPyHtZmau4SAKw</data:dataElementId>
+    <inv:specificationOption>
+      <inv:sequence>1</inv:sequence>
+      <inv:default>false</inv:default>
+      <inv:specification>
+        <com:entity>oltDevice</com:entity>
+        <com:entityType>device</com:entityType>
+        <com:relationship></com:relationship>
+      </inv:specification>
+    </inv:specificationOption>
+    <inv:itemOptionType>Assignment</inv:itemOptionType>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>F7PWnkIXS72qrA13T-RXXQ</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>4bjBEZAnSPyHtZmau4SAKw</data:dataElementId>
+    <layout:layout>
+      <layout:page>Maintain Characteristics</layout:page>
+      <layout:panel>Characteristics Panel</layout:panel>
+    </layout:layout>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>FdgcqEkmT4OukYyPuovHQg</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>G5QNNqEoTJ6K6tFnt3qLyg</data:dataElementId>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>false</data:internal>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementEnumerationDetail">
+    <com:id>bj3cUMi1QbOgLhGircmwBg</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+    <data:dataElementId>G5QNNqEoTJ6K6tFnt3qLyg</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>NC+C2Kf+TlyOLTK-DW2GEg</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>G5QNNqEoTJ6K6tFnt3qLyg</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:hintDetail">
+    <com:id>KjFZGoC5ReyhMJz2V4ZW6A</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+    <data:dataElementId>G5QNNqEoTJ6K6tFnt3qLyg</data:dataElementId>
+    <layout:hints/>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="poms:valueComplexType" linkEnabled="false" overrideDictionaryValues="false" queryEnabled="false" valueEnabled="false">
+    <com:id>masTWztkTO2YtYevCo4Q9A</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.ValueElementDetail</com:elementType>
+    <data:dataElementId>G5QNNqEoTJ6K6tFnt3qLyg</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:CharElementDetailType">
+    <com:id>cYNLpJROQXinTBBQ-ByVlQ</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementCharDetailType</com:elementType>
+    <data:dataElementId>G5QNNqEoTJ6K6tFnt3qLyg</data:dataElementId>
+    <inv:startTimestamp>0</inv:startTimestamp>
+    <inv:endTimestamp>0</inv:endTimestamp>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>TQ8FUGwLRpa-6qFbQorbpA</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>G5QNNqEoTJ6K6tFnt3qLyg</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>yuDqCo0FRRmzBUled8BL0g</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>sITjZPUkSdaLjvD3QsumvQ</data:dataElementId>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>false</data:internal>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementEnumerationDetail">
+    <com:id>7UZiiMojS3Cm7kj3arR9Kw</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+    <data:dataElementId>sITjZPUkSdaLjvD3QsumvQ</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>PO9N-1SYT2CdwX6ElIfH+A</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>sITjZPUkSdaLjvD3QsumvQ</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:hintDetail">
+    <com:id>dI6nkmG9RnyF1zLEwWnUAQ</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+    <data:dataElementId>sITjZPUkSdaLjvD3QsumvQ</data:dataElementId>
+    <layout:hints/>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="poms:valueComplexType" linkEnabled="false" overrideDictionaryValues="false" queryEnabled="false" valueEnabled="false">
+    <com:id>deODjvZKRQi5Og0ZHLoSuQ</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.ValueElementDetail</com:elementType>
+    <data:dataElementId>sITjZPUkSdaLjvD3QsumvQ</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:CharElementDetailType">
+    <com:id>3w5rHtSOQV+1EDmAbgBGJg</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementCharDetailType</com:elementType>
+    <data:dataElementId>sITjZPUkSdaLjvD3QsumvQ</data:dataElementId>
+    <inv:startTimestamp>0</inv:startTimestamp>
+    <inv:endTimestamp>0</inv:endTimestamp>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>bY9wSXtkQRumZMDeGNpZXQ</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>W+8+TgSmQhquVWrP9315GA</data:dataElementId>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>false</data:internal>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementEnumerationDetail">
+    <com:id>RYa0MljBTaunil5bfENLGA</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+    <data:dataElementId>W+8+TgSmQhquVWrP9315GA</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>GbC80vaiR6+7C5mEelzQNQ</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>W+8+TgSmQhquVWrP9315GA</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:hintDetail">
+    <com:id>eDCT3PYAQp2tcXkrwfqK-Q</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+    <data:dataElementId>W+8+TgSmQhquVWrP9315GA</data:dataElementId>
+    <layout:hints/>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="poms:valueComplexType" linkEnabled="false" overrideDictionaryValues="false" queryEnabled="false" valueEnabled="false">
+    <com:id>VL5a66seTPeRsa2nRH6PHw</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.ValueElementDetail</com:elementType>
+    <data:dataElementId>W+8+TgSmQhquVWrP9315GA</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:CharElementDetailType">
+    <com:id>Hd6xg+P6RhCR-l5qDzOD8w</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementCharDetailType</com:elementType>
+    <data:dataElementId>W+8+TgSmQhquVWrP9315GA</data:dataElementId>
+    <inv:startTimestamp>0</inv:startTimestamp>
+    <inv:endTimestamp>0</inv:endTimestamp>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>Pcq8OGi-SJ6jJVe9pk7a+Q</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>W+8+TgSmQhquVWrP9315GA</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>x5sXBj8FSISqjTZ5psKzSg</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>+5J9JOqoSYG9BdyX1V1HQw</data:dataElementId>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>false</data:internal>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementEnumerationDetail">
+    <com:id>n7Dt0MbCTgCLbc2BHrrMMg</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+    <data:dataElementId>+5J9JOqoSYG9BdyX1V1HQw</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>6TNnxCNnTo+7pemFrxFGPQ</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>+5J9JOqoSYG9BdyX1V1HQw</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:hintDetail">
+    <com:id>tpMYIgchSh2LmIxIptHOjw</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+    <data:dataElementId>+5J9JOqoSYG9BdyX1V1HQw</data:dataElementId>
+    <layout:hints/>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="poms:valueComplexType" linkEnabled="false" overrideDictionaryValues="false" queryEnabled="false" valueEnabled="false">
+    <com:id>0k2NN36sRSy-dosrWfEvXw</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.ValueElementDetail</com:elementType>
+    <data:dataElementId>+5J9JOqoSYG9BdyX1V1HQw</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:CharElementDetailType">
+    <com:id>QvWC9lICQzK2LFjunAnCaw</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementCharDetailType</com:elementType>
+    <data:dataElementId>+5J9JOqoSYG9BdyX1V1HQw</data:dataElementId>
+    <inv:startTimestamp>0</inv:startTimestamp>
+    <inv:endTimestamp>0</inv:endTimestamp>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>vewjY64fThab5GU39ULUAA</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>+5J9JOqoSYG9BdyX1V1HQw</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>B7rvk25XTUyNp6FSNmmdZg</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>cVMsf2TuT-GrYiYEiMRtVg</data:dataElementId>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>false</data:internal>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementEnumerationDetail">
+    <com:id>iskh9rEySXO4Bpn+mwsJYw</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+    <data:dataElementId>cVMsf2TuT-GrYiYEiMRtVg</data:dataElementId>
+    <data:defaultEnumerationReference>
+      <com:relationship>oracle.communications.studio.model.data.defaultEnumeration</com:relationship>
+      <com:element>ADD</com:element>
+      <com:elementType></com:elementType>
+    </data:defaultEnumerationReference>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>PbmL0YQMQ22FreLL6uRIGg</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>cVMsf2TuT-GrYiYEiMRtVg</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:hintDetail">
+    <com:id>T4qzkEF0QnaARnecf+Q88g</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+    <data:dataElementId>cVMsf2TuT-GrYiYEiMRtVg</data:dataElementId>
+    <layout:hints>
+      <layout:panel page="Default" panel="Default">
+        <layout:controlType>DropDown</layout:controlType>
+      </layout:panel>
+    </layout:hints>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="poms:valueComplexType" linkEnabled="false" overrideDictionaryValues="false" query="" queryEnabled="false" valueEnabled="true">
+    <com:id>5hZYzTXqQtaNkXXaSzLyog</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.ValueElementDetail</com:elementType>
+    <data:dataElementId>cVMsf2TuT-GrYiYEiMRtVg</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:CharElementDetailType">
+    <com:id>B5CiSDZySjKfBMuL0LNQXg</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementCharDetailType</com:elementType>
+    <data:dataElementId>cVMsf2TuT-GrYiYEiMRtVg</data:dataElementId>
+    <inv:startTimestamp>0</inv:startTimestamp>
+    <inv:endTimestamp>0</inv:endTimestamp>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementTagDetails">
+    <com:id>XtT4cLZYRlaTB0hN8rbpKA</com:id>
+    <com:elementType>oracle.communications.studio.model.tag.StudioModelTagDetails</com:elementType>
+    <data:dataElementId>cVMsf2TuT-GrYiYEiMRtVg</data:dataElementId>
+    <data:tags>
+      <data:id>oracle.communications.studio.inventory.dataelement.characteristic</data:id>
+      <data:name>Characteristic</data:name>
+    </data:tags>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>JcA3n+L-TRKxJfNBDsls0A</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>cVMsf2TuT-GrYiYEiMRtVg</data:dataElementId>
+  </data:dataElementDetails>
+  <inv:rule>
+    <com:entity>DESIGN_SERVICE_ACTION_RULEEXTPOINT</com:entity>
+    <com:entityType>rst</com:entityType>
+    <com:relationship>com.mslv.studio.inventory.specification.REL_RULE_TRIGGER</com:relationship>
+  </inv:rule>
+  <inv:entityType>Service Configuration</inv:entityType>
+</com:modelEntity>

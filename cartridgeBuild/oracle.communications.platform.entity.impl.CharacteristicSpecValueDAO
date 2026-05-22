@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extent>
+  <object class="oracle.communications.platform.entity.impl.DiscreteCharSpecValueDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecValueDAO-0" version="0">
+    <field name="defaultValue">true</field>
+    <field name="label">"ADD"</field>
+    <field name="value">"ADD"</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.DiscreteCharSpecValueDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecValueDAO-1" version="0">
+    <field name="defaultValue">false</field>
+    <field name="label">"MODIFY"</field>
+    <field name="value">"MODIFY"</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.DiscreteCharSpecValueDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecValueDAO-2" version="0">
+    <field name="defaultValue">false</field>
+    <field name="label">"SUSPEND"</field>
+    <field name="value">"SUSPEND"</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.DiscreteCharSpecValueDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecValueDAO-3" version="0">
+    <field name="defaultValue">false</field>
+    <field name="label">"RESUME"</field>
+    <field name="value">"RESUME"</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.DiscreteCharSpecValueDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecValueDAO-4" version="0">
+    <field name="defaultValue">false</field>
+    <field name="label">"DELETE"</field>
+    <field name="value">"DELETE"</field>
+  </object>
+</extent>

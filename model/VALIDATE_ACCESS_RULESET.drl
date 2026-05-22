@@ -1,0 +1,17 @@
+package oracle.communications.inventory.rules
+ 
+import oracle.communications.inventory.api.framework.logging.Log;
+import oracle.communications.inventory.extensibility.extension.util.ExtensionPointContext;
+import com.training.uim.ValidateAccessCaptureRequest;
+ 
+ 
+global Log log;
+ 
+rule "Validate VALIDATE_ACCESS_RULESET"
+	salience 0
+	when
+    	context : ExtensionPointContext()      
+    then 
+		ValidateAccessCaptureRequest validateAccessCaptureRequest = new ValidateAccessCaptureRequest();
+		validateAccessCaptureRequest.validateAccessCapture(context,log);
+end

@@ -1,0 +1,20 @@
+package oracle.communications.inventory.rules
+ 
+import oracle.communications.inventory.api.framework.logging.Log;
+import oracle.communications.inventory.extensibility.extension.util.ExtensionPointRuleContext;
+import com.training.uim.ServiceAction;
+ 
+ 
+global Log log;
+ 
+rule "MAP_CUSTOM_SERVICE_ACTION_TO_SERVICE_ACTION"
+	salience 0
+	when
+    	context : ExtensionPointRuleContext()      
+    then 
+    	log.info("", "MAP_CUSTOM_SERVICE_ACTION_TO_SERVICE_ACTION - RULE START");
+		ServiceAction serviceAction = new ServiceAction();
+		String convertedServiceAction = serviceAction.mapCustomServiceAction_getEntityAction(context,log);
+		context.setReturnValue(convertedServiceAction);
+		log.info("", "MAP_CUSTOM_SERVICE_ACTION_TO_SERVICE_ACTION - RULE ENDS");
+end

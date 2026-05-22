@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: Training_Access_Service
+Bundle-Name: Training_Access_Service
+Bundle-Version: 1.0.0.0.0
+Bundle-BuildTime: 2026-05-21 03:10:06
+Bundle-BuildNumber: 1250
+Bundle-Category: Inventory
+Bundle-Vendor: InventoryCartridge
+Bundle-RequiredExecutionEnvironment: Oracle-Communications/Inventory-7.8.0,
+ JavaSE-1.8
+Bundle-RequiredTargetVersion: 7.8.0
+Require-Bundle: ora_uim_baseextpts;bundle-version="7.8.0.0.0";bundle-category=Inventory;dependency-type=runtime

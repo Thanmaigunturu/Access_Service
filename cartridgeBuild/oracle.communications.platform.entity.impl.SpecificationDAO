@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extent>
+  <object class="oracle.communications.platform.entity.impl.InventoryConfigurationSpecDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Access_RFS_Configuration.configuration#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-0" version="0">
+    <field name="name">"Access_RFS_Configuration"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ServiceConfigurationVersionDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-0</element>
+    </field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.ExtensionPointRuleSetDAO-0</element>
+    </field>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="path">"Access_RFS_Configuration"</field>
+    <field format="enum_name" name="configType">CONFIG</field>
+    <field name="activationParameter">false</field>
+    <field name="sharedBySpecs">false</field>
+    <field name="options"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.InventoryConfigurationSpecDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Access_RFS_Configuration.configuration.Device_Access.configItem-1249593135#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-1" version="0">
+    <field name="name">"Device_Access"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ServiceConfigurationItemDAO"</field>
+    <field name="description">""</field>
+    <field name="startDate">1779301801000</field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="path">"Access_RFS_Configuration,Device_Access,"</field>
+    <field format="enum_name" name="configType">ITEM</field>
+    <field name="activationParameter">false</field>
+    <field name="sharedBySpecs">false</field>
+    <field name="options"/>
+    <field format="enum_name" name="itemOptionType">null</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-0</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-1</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-2</element>
+    </field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-1</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-2</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-3</element>
+    </field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.InventoryConfigurationSpecDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Access_RFS_Configuration.configuration.PE_Device.configItem-3779217634#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-2" version="0">
+    <field name="name">"PE_Device"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ServiceConfigurationItemDAO"</field>
+    <field name="description">""</field>
+    <field name="startDate">1779301801000</field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="path">"Access_RFS_Configuration,Device_Access,PE_Device,"</field>
+    <field format="enum_name" name="configType">ITEM</field>
+    <field name="activationParameter">false</field>
+    <field name="sharedBySpecs">false</field>
+    <field name="options">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.InventoryConfigSpecOptionDAO-0</element>
+    </field>
+    <field format="enum_name" name="itemOptionType">ASSIGNMENT</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-3</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-4</element>
+    </field>
+    <field name="relatedSpecs"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.LogicalDeviceSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/peDevice.device#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-3" version="0">
+    <field name="name">"peDevice"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.LogicalDeviceDAO"</field>
+    <field name="description">null</field>
+    <field name="consumableMayBeShared">false</field>
+    <field name="consumerAllowSharedConsumption">false</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-15</element>
+    </field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="vendorName">null</field>
+    <field name="modelNumber">null</field>
+    <field name="partNumber">null</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.InventoryConfigurationSpecDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Access_RFS_Configuration.configuration.Switch_Device.configItem-1678199964#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-4" version="0">
+    <field name="name">"Switch_Device"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ServiceConfigurationItemDAO"</field>
+    <field name="description">""</field>
+    <field name="startDate">1779301801000</field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="path">"Access_RFS_Configuration,Device_Access,Switch_Device,"</field>
+    <field format="enum_name" name="configType">ITEM</field>
+    <field name="activationParameter">false</field>
+    <field name="sharedBySpecs">false</field>
+    <field name="options">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.InventoryConfigSpecOptionDAO-1</element>
+    </field>
+    <field format="enum_name" name="itemOptionType">ASSIGNMENT</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-5</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-6</element>
+    </field>
+    <field name="relatedSpecs"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.LogicalDeviceSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/accessDevice.device#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-5" version="0">
+    <field name="name">"accessDevice"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.LogicalDeviceDAO"</field>
+    <field name="description">null</field>
+    <field name="consumableMayBeShared">false</field>
+    <field name="consumerAllowSharedConsumption">false</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-12</element>
+    </field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="vendorName">null</field>
+    <field name="modelNumber">null</field>
+    <field name="partNumber">null</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.InventoryConfigurationSpecDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Access_RFS_Configuration.configuration.OLT_Device.configItem-1955023254#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-6" version="0">
+    <field name="name">"OLT_Device"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ServiceConfigurationItemDAO"</field>
+    <field name="description">""</field>
+    <field name="startDate">1779301801000</field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="path">"Access_RFS_Configuration,Device_Access,OLT_Device,"</field>
+    <field format="enum_name" name="configType">ITEM</field>
+    <field name="activationParameter">false</field>
+    <field name="sharedBySpecs">false</field>
+    <field name="options">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.InventoryConfigSpecOptionDAO-2</element>
+    </field>
+    <field format="enum_name" name="itemOptionType">ASSIGNMENT</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-7</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-8</element>
+    </field>
+    <field name="relatedSpecs"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.LogicalDeviceSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/oltDevice.device#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-7" version="0">
+    <field name="name">"oltDevice"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.LogicalDeviceDAO"</field>
+    <field name="description">null</field>
+    <field name="consumableMayBeShared">false</field>
+    <field name="consumerAllowSharedConsumption">false</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-14</element>
+    </field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="vendorName">null</field>
+    <field name="modelNumber">null</field>
+    <field name="partNumber">null</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.ServiceSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Access_CFS.service#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-8" version="0">
+    <field name="name">"Access_CFS"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ServiceDAO"</field>
+    <field name="description">null</field>
+    <field name="consumableMayBeShared">false</field>
+    <field name="consumerAllowSharedConsumption">false</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-4</element>
+    </field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.ExtensionPointRuleSetDAO-1</element>
+    </field>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="serviceType">null</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.InventoryConfigurationSpecDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Access_CFS_Configuration.configuration#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-9" version="0">
+    <field name="name">"Access_CFS_Configuration"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ServiceConfigurationVersionDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-5</element>
+    </field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.ExtensionPointRuleSetDAO-2</element>
+    </field>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="path">"Access_CFS_Configuration"</field>
+    <field format="enum_name" name="configType">CONFIG</field>
+    <field name="activationParameter">false</field>
+    <field name="sharedBySpecs">false</field>
+    <field name="options"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.InventoryConfigurationSpecDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Access_CFS_Configuration.configuration.Access_CFS_SCI.configItem-2844804773#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-10" version="0">
+    <field name="name">"Access_CFS_SCI"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ServiceConfigurationItemDAO"</field>
+    <field name="description">""</field>
+    <field name="startDate">1779301801000</field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="path">"Access_CFS_Configuration,Access_CFS_SCI,"</field>
+    <field format="enum_name" name="configType">ITEM</field>
+    <field name="activationParameter">false</field>
+    <field name="sharedBySpecs">false</field>
+    <field name="options">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.InventoryConfigSpecOptionDAO-3</element>
+    </field>
+    <field format="enum_name" name="itemOptionType">ASSIGNMENT</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="relatedSpecs"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.ServiceSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Access_RFS.service#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-11" version="0">
+    <field name="name">"Access_RFS"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ServiceDAO"</field>
+    <field name="description">null</field>
+    <field name="consumableMayBeShared">false</field>
+    <field name="consumerAllowSharedConsumption">false</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-6</element>
+    </field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.ExtensionPointRuleSetDAO-3</element>
+    </field>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="serviceType">null</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.PlaceSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/BranchQuarter.place#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-12" version="0">
+    <field name="name">"BranchQuarter"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.GeographicLocationDAO"</field>
+    <field name="description">null</field>
+    <field name="consumableMayBeShared">false</field>
+    <field name="consumerAllowSharedConsumption">false</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-7</element>
+    </field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.InvRoleSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Org.role#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-13" version="0">
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.InventoryRoleDAO"</field>
+    <field name="name">"Org"</field>
+    <field name="description">null</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field format="enum_name" name="roleType">null</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.PlaceSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/CustomerLocation.place#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-14" version="0">
+    <field name="name">"CustomerLocation"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.GeographicLocationDAO"</field>
+    <field name="description">null</field>
+    <field name="consumableMayBeShared">true</field>
+    <field name="consumerAllowSharedConsumption">true</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-8</element>
+    </field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.InvRoleSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Individual.role#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-15" version="0">
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.InventoryRoleDAO"</field>
+    <field name="name">"Individual"</field>
+    <field name="description">null</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field format="enum_name" name="roleType">null</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.PartySpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/CustomerParty.party#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-16" version="0">
+    <field name="name">"CustomerParty"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.PartyDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-9</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-10</element>
+    </field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.PlaceSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/HeadQuarter.place#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-17" version="0">
+    <field name="name">"HeadQuarter"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.GeographicLocationDAO"</field>
+    <field name="description">null</field>
+    <field name="consumableMayBeShared">false</field>
+    <field name="consumerAllowSharedConsumption">false</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-11</element>
+    </field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.BusinessInteractionSpecDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Training_BI.bi#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-18" version="0">
+    <field name="name">"Training_BI"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.BusinessInteractionDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.BusinessInteractionSpecDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/Tsarobi.bi#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-19" version="0">
+    <field name="name">"Tsarobi"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.BusinessInteractionDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.DeviceInterfaceSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/accessInterfaces.deviceInterface#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-20" version="0">
+    <field name="name">"accessInterfaces"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.DeviceInterfaceDAO"</field>
+    <field name="description">null</field>
+    <field name="consumableMayBeShared">false</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationRelDAO-13</element>
+    </field>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="rateCode">null</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.DeviceInterfaceSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/oltInterfaces.deviceInterface#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-21" version="0">
+    <field name="name">"oltInterfaces"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.DeviceInterfaceDAO"</field>
+    <field name="description">null</field>
+    <field name="consumableMayBeShared">false</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="rateCode">null</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.DeviceInterfaceSpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/Training_Access_Service/model/peInterfaces.deviceInterface#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-22" version="0">
+    <field name="name">"peInterfaces"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.DeviceInterfaceDAO"</field>
+    <field name="description">null</field>
+    <field name="consumableMayBeShared">false</field>
+    <field name="startDate">1779301801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="enterIdManually">false</field>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages"/>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="rateCode">null</field>
+  </object>
+</extent>

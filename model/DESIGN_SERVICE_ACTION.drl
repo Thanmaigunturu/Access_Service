@@ -1,0 +1,19 @@
+package oracle.communications.inventory.rules
+ 
+import oracle.communications.inventory.api.framework.logging.Log;
+import oracle.communications.inventory.extensibility.extension.util.ExtensionPointContext;
+import com.training.uim.DesignServiceAction;
+ 
+ 
+global Log log;
+ 
+rule "DESIGN_SERVICE_ACTION"
+	salience 0
+	when
+    	context : ExtensionPointContext()      
+    then 
+    	log.info("", "DESIGN_SERVICE_ACTION - RULE START");
+		DesignServiceAction designServiceAction = new DesignServiceAction();
+		designServiceAction.design(context);
+		log.info("", "DESIGN_SERVICE_ACTION - END START");
+end

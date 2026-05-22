@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:inventory="http://xmlns.oracle.com/communications/studio/model/inventory" xmlns:model="http://xmlns.oracle.com/communications/studio/model">
+  <metadata version="1.0.0" release="7.3.0"/>
+  <entity xsi:type="inventory:ServiceConfigurationSpecification" id="sc=Access_RFS_Configuration" type="sc" typeName="Service Configuration Specification" name="Access_RFS_Configuration" resource="\Training_Access_Service\model\Access_RFS_Configuration.configuration">
+    <note lang="default"/>
+    <project>
+      <relation ref="ivprj=Training_Access_Service" type="Inventory Project" name="Dependency">
+        <target name="Training_Access_Service" typeName="Inventory Project"/>
+      </relation>
+    </project>
+    <dataElements>
+      <element id="sc=Access_RFS_Configuration+dataElement=fr938BLBQZySA9sJ06nGeA" type="dataElement" typeName="Data Element" kind="Element" name="Device_Access" path="/Access_RFS_Configuration/Device_Access">
+        <displayName lang="default">Device_Access</displayName>
+        <minOccurs inherited="false">0</minOccurs>
+        <maxOccurs inherited="false">1</maxOccurs>
+        <defaultValue inherited="false"></defaultValue>
+        <key inherited="false"></key>
+        <abstract inherited="false">false</abstract>
+        <deprecated inherited="false">false</deprecated>
+        <internal inherited="false">true</internal>
+        <sensitive inherited="false">false</sensitive>
+        <dataElements>
+          <element id="sc=Access_RFS_Configuration+dataElement=eD5kOHIWTj+kSdQhMxUAAg" type="dataElement" typeName="Data Element" kind="Element" name="PE_Device" path="/Access_RFS_Configuration/Device_Access/PE_Device">
+            <displayName lang="default">PE_Device</displayName>
+            <minOccurs inherited="false">1</minOccurs>
+            <maxOccurs inherited="false">1</maxOccurs>
+            <defaultValue inherited="false"></defaultValue>
+            <key inherited="false"></key>
+            <abstract inherited="false">false</abstract>
+            <deprecated inherited="false">false</deprecated>
+            <internal inherited="false">true</internal>
+            <sensitive inherited="false">false</sensitive>
+            <dataElements>
+              <element id="sc=Access_RFS_Configuration+dataElement=bK7upg0XRkKlkFJ5r9C9PA" type="dataElement" typeName="Data Element" kind="Element" name="peDeviceName" path="/Access_RFS_Configuration/Device_Access/PE_Device/peDeviceName">
+                <displayName lang="default">Pe Device Name</displayName>
+                <minOccurs inherited="false">1</minOccurs>
+                <maxOccurs inherited="true">1</maxOccurs>
+                <defaultValue inherited="true"></defaultValue>
+                <key inherited="false"></key>
+                <abstract inherited="false">false</abstract>
+                <deprecated inherited="false">false</deprecated>
+                <internal inherited="false">false</internal>
+                <sensitive inherited="true">false</sensitive>
+                <minLength inherited="true">0</minLength>
+                <maxLength inherited="true">40</maxLength>
+                <base>
+                  <relation ref="ds=Training_Access_Service+dataElement=peDeviceName" type="Schema Element" name="Type" kind="Element">
+                    <target name="peDeviceName" typeName="Schema Element"/>
+                    <inEntity name="Training_Access_Service" typeName="Data Schema"/>
+                  </relation>
+                </base>
+                <dataElements/>
+                <uiSettings>
+                  <defaultValue></defaultValue>
+                </uiSettings>
+                <characteristics>
+                  <dataValues>
+                    <dropDownOptions/>
+                  </dataValues>
+                </characteristics>
+                <primitiveType>string</primitiveType>
+              </element>
+              <element id="sc=Access_RFS_Configuration+dataElement=HmMGhIz9QVKpBct2Ty30bQ" type="dataElement" typeName="Data Element" kind="Element" name="pePort" path="/Access_RFS_Configuration/Device_Access/PE_Device/pePort">
+                <displayName lang="default">Pe Port</displayName>
+                <minOccurs inherited="false">1</minOccurs>
+                <maxOccurs inherited="true">1</maxOccurs>
+                <defaultValue inherited="true"></defaultValue>
+                <key inherited="false"></key>
+                <abstract inherited="false">false</abstract>
+                <deprecated inherited="false">false</deprecated>
+                <internal inherited="false">false</internal>
+                <sensitive inherited="true">false</sensitive>
+                <minLength inherited="true">0</minLength>
+                <maxLength inherited="true">40</maxLength>
+                <base>
+                  <relation ref="ds=Training_Access_Service+dataElement=pePort" type="Schema Element" name="Type" kind="Element">
+                    <target name="pePort" typeName="Schema Element"/>
+                    <inEntity name="Training_Access_Service" typeName="Data Schema"/>
+                  </relation>
+                </base>
+                <dataElements/>
+                <uiSettings>
+                  <defaultValue></defaultValue>
+                </uiSettings>
+                <characteristics>
+                  <dataValues>
+                    <dropDownOptions/>
+                  </dataValues>
+                </characteristics>
+                <primitiveType>string</primitiveType>
+              </element>
+            </dataElements>
+            <specificationOptions>
+              <specificationOptionList>
+                <element>
+                  <specification>
+                    <relation ref="lds=peDevice" type="Logical Device Specification" name="Spec Option" kind="Entity">
+                      <target name="peDevice" typeName="Logical Device Specification"/>
+                    </relation>
+                  </specification>
+                  <sequence>1</sequence>
+                </element>
+              </specificationOptionList>
+              <itemOptionType>Assignment</itemOptionType>
+            </specificationOptions>
+            <primitiveType>structure</primitiveType>
+          </element>
+          <element id="sc=Access_RFS_Configuration+dataElement=XpERrap2SEes61ATYLDLMg" type="dataElement" typeName="Data Element" kind="Element" name="Switch_Device" path="/Access_RFS_Configuration/Device_Access/Switch_Device">
+            <displayName lang="default">Switch_Device</displayName>
+            <minOccurs inherited="false">0</minOccurs>
+            <maxOccurs inherited="false">1</maxOccurs>
+            <defaultValue inherited="false"></defaultValue>
+            <key inherited="false"></key>
+            <abstract inherited="false">false</abstract>
+            <deprecated inherited="false">false</deprecated>
+            <internal inherited="false">true</internal>
+            <sensitive inherited="false">false</sensitive>
+            <dataElements>
+              <element id="sc=Access_RFS_Configuration+dataElement=wfgu1T9rQR+uXOhMQAK+3g" type="dataElement" typeName="Data Element" kind="Element" name="switchHostName" path="/Access_RFS_Configuration/Device_Access/Switch_Device/switchHostName">
+                <displayName lang="default">Switch Host Name</displayName>
+                <minOccurs inherited="true">0</minOccurs>
+                <maxOccurs inherited="true">1</maxOccurs>
+                <defaultValue inherited="true"></defaultValue>
+                <key inherited="false"></key>
+                <abstract inherited="false">false</abstract>
+                <deprecated inherited="false">false</deprecated>
+                <internal inherited="false">false</internal>
+                <sensitive inherited="true">false</sensitive>
+                <minLength inherited="true">0</minLength>
+                <maxLength inherited="true">40</maxLength>
+                <base>
+                  <relation ref="ds=Training_Access_Service+dataElement=switchHostName" type="Schema Element" name="Type" kind="Element">
+                    <target name="switchHostName" typeName="Schema Element"/>
+                    <inEntity name="Training_Access_Service" typeName="Data Schema"/>
+                  </relation>
+                </base>
+                <dataElements/>
+                <uiSettings>
+                  <defaultValue></defaultValue>
+                </uiSettings>
+                <characteristics>
+                  <dataValues>
+                    <dropDownOptions/>
+                  </dataValues>
+                </characteristics>
+                <primitiveType>string</primitiveType>
+              </element>
+              <element id="sc=Access_RFS_Configuration+dataElement=1dI+semcSNyZAiCP-PKW5g" type="dataElement" typeName="Data Element" kind="Element" name="swPort" path="/Access_RFS_Configuration/Device_Access/Switch_Device/swPort">
+                <displayName lang="default">Sw Port</displayName>
+                <minOccurs inherited="true">0</minOccurs>
+                <maxOccurs inherited="true">1</maxOccurs>
+                <defaultValue inherited="true"></defaultValue>
+                <key inherited="false"></key>
+                <abstract inherited="false">false</abstract>
+                <deprecated inherited="false">false</deprecated>
+                <internal inherited="false">false</internal>
+                <sensitive inherited="true">false</sensitive>
+                <minLength inherited="true">0</minLength>
+                <maxLength inherited="true">40</maxLength>
+                <base>
+                  <relation ref="ds=Training_Access_Service+dataElement=swPort" type="Schema Element" name="Type" kind="Element">
+                    <target name="swPort" typeName="Schema Element"/>
+                    <inEntity name="Training_Access_Service" typeName="Data Schema"/>
+                  </relation>
+                </base>
+                <dataElements/>
+                <uiSettings>
+                  <defaultValue></defaultValue>
+                </uiSettings>
+                <characteristics>
+                  <dataValues>
+                    <dropDownOptions/>
+                  </dataValues>
+                </characteristics>
+                <primitiveType>string</primitiveType>
+              </element>
+            </dataElements>
+            <specificationOptions>
+              <specificationOptionList>
+                <element>
+                  <specification>
+                    <relation ref="lds=accessDevice" type="Logical Device Specification" name="Spec Option" kind="Entity">
+                      <target name="accessDevice" typeName="Logical Device Specification"/>
+                    </relation>
+                  </specification>
+                  <sequence>1</sequence>
+                </element>
+              </specificationOptionList>
+              <itemOptionType>Assignment</itemOptionType>
+            </specificationOptions>
+            <primitiveType>structure</primitiveType>
+          </element>
+          <element id="sc=Access_RFS_Configuration+dataElement=4bjBEZAnSPyHtZmau4SAKw" type="dataElement" typeName="Data Element" kind="Element" name="OLT_Device" path="/Access_RFS_Configuration/Device_Access/OLT_Device">
+            <displayName lang="default">OLT_Device</displayName>
+            <minOccurs inherited="false">0</minOccurs>
+            <maxOccurs inherited="false">1</maxOccurs>
+            <defaultValue inherited="false"></defaultValue>
+            <key inherited="false"></key>
+            <abstract inherited="false">false</abstract>
+            <deprecated inherited="false">false</deprecated>
+            <internal inherited="false">true</internal>
+            <sensitive inherited="false">false</sensitive>
+            <dataElements>
+              <element id="sc=Access_RFS_Configuration+dataElement=G5QNNqEoTJ6K6tFnt3qLyg" type="dataElement" typeName="Data Element" kind="Element" name="oltDeviceName" path="/Access_RFS_Configuration/Device_Access/OLT_Device/oltDeviceName">
+                <displayName lang="default">Olt Device Name</displayName>
+                <minOccurs inherited="true">0</minOccurs>
+                <maxOccurs inherited="true">1</maxOccurs>
+                <defaultValue inherited="true"></defaultValue>
+                <key inherited="false"></key>
+                <abstract inherited="false">false</abstract>
+                <deprecated inherited="false">false</deprecated>
+                <internal inherited="false">false</internal>
+                <sensitive inherited="true">false</sensitive>
+                <minLength inherited="true">0</minLength>
+                <maxLength inherited="true">40</maxLength>
+                <base>
+                  <relation ref="ds=Training_Access_Service+dataElement=oltDeviceName" type="Schema Element" name="Type" kind="Element">
+                    <target name="oltDeviceName" typeName="Schema Element"/>
+                    <inEntity name="Training_Access_Service" typeName="Data Schema"/>
+                  </relation>
+                </base>
+                <dataElements/>
+                <uiSettings>
+                  <defaultValue></defaultValue>
+                </uiSettings>
+                <characteristics>
+                  <dataValues>
+                    <dropDownOptions/>
+                  </dataValues>
+                </characteristics>
+                <primitiveType>string</primitiveType>
+              </element>
+              <element id="sc=Access_RFS_Configuration+dataElement=sITjZPUkSdaLjvD3QsumvQ" type="dataElement" typeName="Data Element" kind="Element" name="oltPort" path="/Access_RFS_Configuration/Device_Access/OLT_Device/oltPort">
+                <displayName lang="default">Olt Port</displayName>
+                <minOccurs inherited="true">0</minOccurs>
+                <maxOccurs inherited="true">1</maxOccurs>
+                <defaultValue inherited="true"></defaultValue>
+                <key inherited="false"></key>
+                <abstract inherited="false">false</abstract>
+                <deprecated inherited="false">false</deprecated>
+                <internal inherited="false">false</internal>
+                <sensitive inherited="true">false</sensitive>
+                <minLength inherited="true">0</minLength>
+                <maxLength inherited="true">40</maxLength>
+                <base>
+                  <relation ref="ds=Training_Access_Service+dataElement=oltPort" type="Schema Element" name="Type" kind="Element">
+                    <target name="oltPort" typeName="Schema Element"/>
+                    <inEntity name="Training_Access_Service" typeName="Data Schema"/>
+                  </relation>
+                </base>
+                <dataElements/>
+                <uiSettings>
+                  <defaultValue></defaultValue>
+                </uiSettings>
+                <characteristics>
+                  <dataValues>
+                    <dropDownOptions/>
+                  </dataValues>
+                </characteristics>
+                <primitiveType>string</primitiveType>
+              </element>
+            </dataElements>
+            <specificationOptions>
+              <specificationOptionList>
+                <element>
+                  <specification>
+                    <relation ref="lds=oltDevice" type="Logical Device Specification" name="Spec Option" kind="Entity">
+                      <target name="oltDevice" typeName="Logical Device Specification"/>
+                    </relation>
+                  </specification>
+                  <sequence>1</sequence>
+                </element>
+              </specificationOptionList>
+              <itemOptionType>Assignment</itemOptionType>
+            </specificationOptions>
+            <primitiveType>structure</primitiveType>
+          </element>
+          <element id="sc=Access_RFS_Configuration+dataElement=W+8+TgSmQhquVWrP9315GA" type="dataElement" typeName="Data Element" kind="Element" name="mwType" path="/Access_RFS_Configuration/Device_Access/mwType">
+            <displayName lang="default">MW Type</displayName>
+            <minOccurs inherited="true">0</minOccurs>
+            <maxOccurs inherited="true">1</maxOccurs>
+            <defaultValue inherited="true"></defaultValue>
+            <key inherited="false"></key>
+            <abstract inherited="false">false</abstract>
+            <deprecated inherited="false">false</deprecated>
+            <internal inherited="false">false</internal>
+            <sensitive inherited="true">false</sensitive>
+            <minLength inherited="true">0</minLength>
+            <maxLength inherited="true">40</maxLength>
+            <base>
+              <relation ref="ds=Training_Access_Service+dataElement=mwType" type="Schema Element" name="Type" kind="Element">
+                <target name="mwType" typeName="Schema Element"/>
+                <inEntity name="Training_Access_Service" typeName="Data Schema"/>
+              </relation>
+            </base>
+            <dataElements/>
+            <uiSettings>
+              <defaultValue></defaultValue>
+            </uiSettings>
+            <characteristics>
+              <dataValues>
+                <dropDownOptions/>
+              </dataValues>
+            </characteristics>
+            <primitiveType>string</primitiveType>
+          </element>
+          <element id="sc=Access_RFS_Configuration+dataElement=+5J9JOqoSYG9BdyX1V1HQw" type="dataElement" typeName="Data Element" kind="Element" name="mediaType" path="/Access_RFS_Configuration/Device_Access/mediaType">
+            <displayName lang="default">Media Type</displayName>
+            <minOccurs inherited="true">0</minOccurs>
+            <maxOccurs inherited="true">1</maxOccurs>
+            <defaultValue inherited="true"></defaultValue>
+            <key inherited="false"></key>
+            <abstract inherited="false">false</abstract>
+            <deprecated inherited="false">false</deprecated>
+            <internal inherited="false">false</internal>
+            <sensitive inherited="true">false</sensitive>
+            <minLength inherited="true">0</minLength>
+            <maxLength inherited="true">40</maxLength>
+            <base>
+              <relation ref="ds=Training_Access_Service+dataElement=mediaType" type="Schema Element" name="Type" kind="Element">
+                <target name="mediaType" typeName="Schema Element"/>
+                <inEntity name="Training_Access_Service" typeName="Data Schema"/>
+              </relation>
+            </base>
+            <dataElements/>
+            <uiSettings>
+              <defaultValue></defaultValue>
+            </uiSettings>
+            <characteristics>
+              <dataValues>
+                <dropDownOptions/>
+              </dataValues>
+            </characteristics>
+            <primitiveType>string</primitiveType>
+          </element>
+          <element id="sc=Access_RFS_Configuration+dataElement=cVMsf2TuT-GrYiYEiMRtVg" type="dataElement" typeName="Data Element" kind="Element" name="serviceAction" path="/Access_RFS_Configuration/Device_Access/serviceAction">
+            <displayName lang="default">Service Action</displayName>
+            <minOccurs inherited="true">0</minOccurs>
+            <maxOccurs inherited="true">1</maxOccurs>
+            <defaultValue inherited="true">ADD</defaultValue>
+            <key inherited="false"></key>
+            <abstract inherited="false">false</abstract>
+            <deprecated inherited="false">false</deprecated>
+            <internal inherited="false">false</internal>
+            <sensitive inherited="true">false</sensitive>
+            <minLength inherited="true">0</minLength>
+            <maxLength inherited="true">40</maxLength>
+            <enum literal="ADD" default="true" inherited="true" excluded="false">
+              <name lang="default">ADD</name>
+            </enum>
+            <enum literal="MODIFY" default="false" inherited="true" excluded="false">
+              <name lang="default">MODIFY</name>
+            </enum>
+            <enum literal="SUSPEND" default="false" inherited="true" excluded="false">
+              <name lang="default">SUSPEND</name>
+            </enum>
+            <enum literal="RESUME" default="false" inherited="true" excluded="false">
+              <name lang="default">RESUME</name>
+            </enum>
+            <enum literal="DELETE" default="false" inherited="true" excluded="false">
+              <name lang="default">DELETE</name>
+            </enum>
+            <base>
+              <relation ref="ds=Training_Access_Service+dataElement=serviceAction" type="Schema Element" name="Type" kind="Element">
+                <target name="serviceAction" typeName="Schema Element"/>
+                <inEntity name="Training_Access_Service" typeName="Data Schema"/>
+              </relation>
+            </base>
+            <dataElements/>
+            <tag>
+              <name>Characteristic</name>
+              <description></description>
+            </tag>
+            <uiSettings>
+              <dropDownSettings/>
+              <controlType>DropDown</controlType>
+              <defaultValue>ADD</defaultValue>
+            </uiSettings>
+            <characteristics>
+              <dataValues>
+                <dropDownOptions/>
+              </dataValues>
+            </characteristics>
+            <primitiveType>string</primitiveType>
+          </element>
+        </dataElements>
+        <primitiveType>structure</primitiveType>
+      </element>
+    </dataElements>
+    <rules>
+      <relation ref="rep=DESIGN_SERVICE_ACTION_RULEEXTPOINT" type="Ruleset Extension Point" name="Rules" kind="Entity">
+        <target name="DESIGN_SERVICE_ACTION_RULEEXTPOINT" typeName="Ruleset Extension Point"/>
+      </relation>
+    </rules>
+    <relatedSpecificationList/>
+  </entity>
+</model:Model>

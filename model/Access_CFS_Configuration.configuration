@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:data="http://www.oracle.com/communications/studio/core/model/common/data" xmlns:inv="http://www.mslv.com/studio/inventory/model/specification" xmlns="http://www.mslv.com/studio/inventory/model/specification" xmlns:layout="http://xmlns.oracle.com/communications/sce/poms/model/layout" xsi:type="inv:ConfigurationSpecificationType" name="Access_CFS_Configuration">
+  <com:saveVersion>3</com:saveVersion>
+  <com:id>-xWxd-L1TP+pj55K9VPlSg</com:id>
+  <data:dataElementNode virtual="true">
+    <com:id>-xWxd-L1TP+pj55K9VPlSg</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+    <data:name>Access_CFS_Configuration</data:name>
+    <data:displayName lang="[default]">Access_CFS_Configuration</data:displayName>
+    <data:dataElement virtual="false">
+      <com:id>bFsBlZo0QPucnMl6boLoBg</com:id>
+      <com:elementType>oracle.communications.studio.model.data.StudioModelDataElement</com:elementType>
+      <data:name>Access_CFS_SCI</data:name>
+      <data:displayName lang="[default]">Access_CFS_SCI</data:displayName>
+      <data:primitiveType>none</data:primitiveType>
+    </data:dataElement>
+    <data:primitiveType>none</data:primitiveType>
+  </data:dataElementNode>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>zRZ8Qb2EQ96toqLyohRkfQ</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>-xWxd-L1TP+pj55K9VPlSg</data:dataElementId>
+    <data:defaultValue></data:defaultValue>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:sensitive>false</data:sensitive>
+    <data:minLength>0</data:minLength>
+    <data:maxLength>40</data:maxLength>
+    <data:minMultiplicity>0</data:minMultiplicity>
+    <data:maxMultiplicity>-1</data:maxMultiplicity>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>xMsd0zJXQnaP+cuRpAYslw</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>-xWxd-L1TP+pj55K9VPlSg</data:dataElementId>
+    <layout:layout>
+      <layout:page>Maintain Characteristics</layout:page>
+      <layout:panel>Characteristics Panel</layout:panel>
+    </layout:layout>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementCommonDetail">
+    <com:id>zPRE5J1PR6yoB4wAd8pRKw</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+    <data:dataElementId>bFsBlZo0QPucnMl6boLoBg</data:dataElementId>
+    <data:defaultValue></data:defaultValue>
+    <data:key></data:key>
+    <data:deprecated>false</data:deprecated>
+    <data:internal>true</data:internal>
+    <data:sensitive>false</data:sensitive>
+    <data:minLength>0</data:minLength>
+    <data:maxLength>40</data:maxLength>
+    <data:minMultiplicity>1</data:minMultiplicity>
+    <data:maxMultiplicity>1</data:maxMultiplicity>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="data:dataElementInformationDetails">
+    <com:id>w3tPVySUQDilJK1NH02pmw</com:id>
+    <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+    <data:dataElementId>bFsBlZo0QPucnMl6boLoBg</data:dataElementId>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="inv:ConfigItemElementDetailType">
+    <com:id>mV1VT7pdR4mgdATIb+Kzrg</com:id>
+    <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementConfigItemDetailType</com:elementType>
+    <data:dataElementId>bFsBlZo0QPucnMl6boLoBg</data:dataElementId>
+    <inv:specificationOption>
+      <inv:sequence>1</inv:sequence>
+      <inv:default>false</inv:default>
+      <inv:specification>
+        <com:entity>Access_RFS</com:entity>
+        <com:entityType>service</com:entityType>
+        <com:relationship></com:relationship>
+      </inv:specification>
+    </inv:specificationOption>
+    <inv:itemOptionType>Assignment</inv:itemOptionType>
+  </data:dataElementDetails>
+  <data:dataElementDetails xsi:type="layout:uiConfigurationType">
+    <com:id>o0TA0LxHSsGavx6O6LcUNw</com:id>
+    <com:elementType>oracle.communications.sce.poms.model.data.LayoutDetailType</com:elementType>
+    <data:dataElementId>bFsBlZo0QPucnMl6boLoBg</data:dataElementId>
+    <layout:layout>
+      <layout:page>Maintain Characteristics</layout:page>
+      <layout:panel>Characteristics Panel</layout:panel>
+    </layout:layout>
+  </data:dataElementDetails>
+  <inv:rule>
+    <com:entity>DESIGN_SERVICE_ACTION_RULEEXTPOINT</com:entity>
+    <com:entityType>rst</com:entityType>
+    <com:relationship>com.mslv.studio.inventory.specification.REL_RULE_TRIGGER</com:relationship>
+  </inv:rule>
+  <inv:entityType>Service Configuration</inv:entityType>
+</com:modelEntity>

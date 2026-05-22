@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:data="http://xmlns.oracle.com/communications/studio/model/data" xmlns:model="http://xmlns.oracle.com/communications/studio/model">
+  <metadata version="1.0.0" release="7.3.0"/>
+  <entity xsi:type="data:DataSchema" id="ds=Training_Access_Service" type="ds" typeName="Data Schema" name="Training_Access_Service" resource="\Training_Access_Service\dataDictionary\Training_Access_Service.xsd">
+    <displayName lang="default">Training_Access_Service</displayName>
+    <note lang="default"/>
+    <project>
+      <relation ref="ivprj=Training_Access_Service" type="Inventory Project" name="Dependency">
+        <target name="Training_Access_Service" typeName="Inventory Project"/>
+      </relation>
+    </project>
+    <dataElements>
+      <element id="ds=Training_Access_Service+dataElement=mwType" type="dataElement" typeName="Schema Element" kind="Element" name="mwType" path="/mwType">
+        <displayName lang="default">MW Type</displayName>
+        <minOccurs inherited="false">0</minOccurs>
+        <maxOccurs inherited="false">1</maxOccurs>
+        <defaultValue inherited="false"></defaultValue>
+        <key inherited="false"></key>
+        <abstract inherited="false">false</abstract>
+        <deprecated inherited="false">false</deprecated>
+        <internal inherited="false">false</internal>
+        <sensitive inherited="false">false</sensitive>
+        <minLength inherited="false">0</minLength>
+        <maxLength inherited="false">40</maxLength>
+        <dataElements/>
+        <tag>
+          <name>Characteristic</name>
+          <description></description>
+        </tag>
+        <uiSettings>
+          <defaultValue></defaultValue>
+        </uiSettings>
+        <characteristics>
+          <dataValues>
+            <dropDownOptions/>
+          </dataValues>
+        </characteristics>
+        <primitiveType>string</primitiveType>
+      </element>
+      <element id="ds=Training_Access_Service+dataElement=peDeviceName" type="dataElement" typeName="Schema Element" kind="Element" name="peDeviceName" path="/peDeviceName">
+        <displayName lang="default">Pe Device Name</displayName>
+        <minOccurs inherited="false">0</minOccurs>
+        <maxOccurs inherited="false">1</maxOccurs>
+        <defaultValue inherited="false"></defaultValue>
+        <key inherited="false"></key>
+        <abstract inherited="false">false</abstract>
+        <deprecated inherited="false">false</deprecated>
+        <internal inherited="false">false</internal>
+        <sensitive inherited="false">false</sensitive>
+        <minLength inherited="false">0</minLength>
+        <maxLength inherited="false">40</maxLength>
+        <dataElements/>
+        <tag>
+          <name>Characteristic</name>
+          <description></description>
+        </tag>
+        <uiSettings>
+          <defaultValue></defaultValue>
+        </uiSettings>
+        <characteristics>
+          <dataValues>
+            <dropDownOptions/>
+          </dataValues>
+        </characteristics>
+        <primitiveType>string</primitiveType>
+      </element>
+      <element id="ds=Training_Access_Service+dataElement=pePort" type="dataElement" typeName="Schema Element" kind="Element" name="pePort" path="/pePort">
+        <displayName lang="default">Pe Port</displayName>
+        <minOccurs inherited="false">0</minOccurs>
+        <maxOccurs inherited="false">1</maxOccurs>
+        <defaultValue inherited="false"></defaultValue>
+        <key inherited="false"></key>
+        <abstract inherited="false">false</abstract>
+        <deprecated inherited="false">false</deprecated>
+        <internal inherited="false">false</internal>
+        <sensitive inherited="false">false</sensitive>
+        <minLength inherited="false">0</minLength>
+        <maxLength inherited="false">40</maxLength>
+        <dataElements/>
+        <tag>
+          <name>Characteristic</name>
+          <description></description>
+        </tag>
+        <uiSettings>
+          <defaultValue></defaultValue>
+        </uiSettings>
+        <characteristics>
+          <dataValues>
+            <dropDownOptions/>
+          </dataValues>
+        </characteristics>
+        <primitiveType>string</primitiveType>
+      </element>
+      <element id="ds=Training_Access_Service+dataElement=switchHostName" type="dataElement" typeName="Schema Element" kind="Element" name="switchHostName" path="/switchHostName">
+        <displayName lang="default">Switch Host Name</displayName>
+        <minOccurs inherited="false">0</minOccurs>
+        <maxOccurs inherited="false">1</maxOccurs>
+        <defaultValue inherited="false"></defaultValue>
+        <key inherited="false"></key>
+        <abstract inherited="false">false</abstract>
+        <deprecated inherited="false">false</deprecated>
+        <internal inherited="false">false</internal>
+        <sensitive inherited="false">false</sensitive>
+        <minLength inherited="false">0</minLength>
+        <maxLength inherited="false">40</maxLength>
+        <dataElements/>
+        <tag>
+          <name>Characteristic</name>
+          <description></description>
+        </tag>
+        <uiSettings>
+          <defaultValue></defaultValue>
+        </uiSettings>
+        <characteristics>
+          <dataValues>
+            <dropDownOptions/>
+          </dataValues>
+        </characteristics>
+        <primitiveType>string</primitiveType>
+      </element>
+      <element id="ds=Training_Access_Service+dataElement=swPort" type="dataElement" typeName="Schema Element" kind="Element" name="swPort" path="/swPort">
+        <displayName lang="default">Sw Port</displayName>
+        <minOccurs inherited="false">0</minOccurs>
+        <maxOccurs inherited="false">1</maxOccurs>
+        <defaultValue inherited="false"></defaultValue>
+        <key inherited="false"></key>
+        <abstract inherited="false">false</abstract>
+        <deprecated inherited="false">false</deprecated>
+        <internal inherited="false">false</internal>
+        <sensitive inherited="false">false</sensitive>
+        <minLength inherited="false">0</minLength>
+        <maxLength inherited="false">40</maxLength>
+        <dataElements/>
+        <tag>
+          <name>Characteristic</name>
+          <description></description>
+        </tag>
+        <uiSettings>
+          <defaultValue></defaultValue>
+        </uiSettings>
+        <characteristics>
+          <dataValues>
+            <dropDownOptions/>
+          </dataValues>
+        </characteristics>
+        <primitiveType>string</primitiveType>
+      </element>
+      <element id="ds=Training_Access_Service+dataElement=oltDeviceName" type="dataElement" typeName="Schema Element" kind="Element" name="oltDeviceName" path="/oltDeviceName">
+        <displayName lang="default">Olt Device Name</displayName>
+        <minOccurs inherited="false">0</minOccurs>
+        <maxOccurs inherited="false">1</maxOccurs>
+        <defaultValue inherited="false"></defaultValue>
+        <key inherited="false"></key>
+        <abstract inherited="false">false</abstract>
+        <deprecated inherited="false">false</deprecated>
+        <internal inherited="false">false</internal>
+        <sensitive inherited="false">false</sensitive>
+        <minLength inherited="false">0</minLength>
+        <maxLength inherited="false">40</maxLength>
+        <dataElements/>
+        <tag>
+          <name>Characteristic</name>
+          <description></description>
+        </tag>
+        <uiSettings>
+          <defaultValue></defaultValue>
+        </uiSettings>
+        <characteristics>
+          <dataValues>
+            <dropDownOptions/>
+          </dataValues>
+        </characteristics>
+        <primitiveType>string</primitiveType>
+      </element>
+      <element id="ds=Training_Access_Service+dataElement=oltPort" type="dataElement" typeName="Schema Element" kind="Element" name="oltPort" path="/oltPort">
+        <displayName lang="default">Olt Port</displayName>
+        <minOccurs inherited="false">0</minOccurs>
+        <maxOccurs inherited="false">1</maxOccurs>
+        <defaultValue inherited="false"></defaultValue>
+        <key inherited="false"></key>
+        <abstract inherited="false">false</abstract>
+        <deprecated inherited="false">false</deprecated>
+        <internal inherited="false">false</internal>
+        <sensitive inherited="false">false</sensitive>
+        <minLength inherited="false">0</minLength>
+        <maxLength inherited="false">40</maxLength>
+        <dataElements/>
+        <tag>
+          <name>Characteristic</name>
+          <description></description>
+        </tag>
+        <uiSettings>
+          <defaultValue></defaultValue>
+        </uiSettings>
+        <characteristics>
+          <dataValues>
+            <dropDownOptions/>
+          </dataValues>
+        </characteristics>
+        <primitiveType>string</primitiveType>
+      </element>
+      <element id="ds=Training_Access_Service+dataElement=mediaType" type="dataElement" typeName="Schema Element" kind="Element" name="mediaType" path="/mediaType">
+        <displayName lang="default">Media Type</displayName>
+        <minOccurs inherited="false">0</minOccurs>
+        <maxOccurs inherited="false">1</maxOccurs>
+        <defaultValue inherited="false"></defaultValue>
+        <key inherited="false"></key>
+        <abstract inherited="false">false</abstract>
+        <deprecated inherited="false">false</deprecated>
+        <internal inherited="false">false</internal>
+        <sensitive inherited="false">false</sensitive>
+        <minLength inherited="false">0</minLength>
+        <maxLength inherited="false">40</maxLength>
+        <dataElements/>
+        <tag>
+          <name>Characteristic</name>
+          <description></description>
+        </tag>
+        <uiSettings>
+          <defaultValue></defaultValue>
+        </uiSettings>
+        <characteristics>
+          <dataValues>
+            <dropDownOptions/>
+          </dataValues>
+        </characteristics>
+        <primitiveType>string</primitiveType>
+      </element>
+      <element id="ds=Training_Access_Service+dataElement=serviceAction" type="dataElement" typeName="Schema Element" kind="Element" name="serviceAction" path="/serviceAction">
+        <displayName lang="default">Service Action</displayName>
+        <minOccurs inherited="false">0</minOccurs>
+        <maxOccurs inherited="false">1</maxOccurs>
+        <defaultValue inherited="false">ADD</defaultValue>
+        <key inherited="false"></key>
+        <abstract inherited="false">false</abstract>
+        <deprecated inherited="false">false</deprecated>
+        <internal inherited="false">false</internal>
+        <sensitive inherited="false">false</sensitive>
+        <minLength inherited="false">0</minLength>
+        <maxLength inherited="false">40</maxLength>
+        <enum literal="ADD" default="true" inherited="false" excluded="false">
+          <name lang="default">ADD</name>
+        </enum>
+        <enum literal="MODIFY" default="false" inherited="false" excluded="false">
+          <name lang="default">MODIFY</name>
+        </enum>
+        <enum literal="SUSPEND" default="false" inherited="false" excluded="false">
+          <name lang="default">SUSPEND</name>
+        </enum>
+        <enum literal="RESUME" default="false" inherited="false" excluded="false">
+          <name lang="default">RESUME</name>
+        </enum>
+        <enum literal="DELETE" default="false" inherited="false" excluded="false">
+          <name lang="default">DELETE</name>
+        </enum>
+        <dataElements/>
+        <tag>
+          <name>Characteristic</name>
+          <description></description>
+        </tag>
+        <uiSettings>
+          <dropDownSettings/>
+          <controlType>DropDown</controlType>
+          <defaultValue>ADD</defaultValue>
+        </uiSettings>
+        <characteristics>
+          <dataValues>
+            <dropDownOptions/>
+          </dataValues>
+        </characteristics>
+        <primitiveType>string</primitiveType>
+      </element>
+    </dataElements>
+  </entity>
+</model:Model>
